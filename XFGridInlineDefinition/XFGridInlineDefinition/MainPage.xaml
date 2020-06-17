@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="XFGridInlineDefinition.MainPage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid ColumnDefinitions="1*,2*,auto,*,100" RowDefinitions="1*,auto,2*,100,3*">
+        <Frame
+            Grid.Row="0"
+            Grid.Column="0"
+            BackgroundColor="Red" />
+        <Frame
+            Grid.Row="0"
+            Grid.Column="1"
+            BackgroundColor="Red" />
+        <Frame
+            Grid.Row="0"
+            Grid.Column="2"
+            BackgroundColor="Red" />
+        <Frame
+            Grid.Row="0"
+            Grid.Column="3"
+            BackgroundColor="Red" />
+        <Frame
+            Grid.Row="0"
+            Grid.Column="4"
+            BackgroundColor="Red" />
+        <Frame
+            Grid.Row="1"
+            Grid.Column="0"
+            BackgroundColor="Blue" />
+        <Frame
+            Grid.Row="1"
+            Grid.Column="1"
+            BackgroundColor="Blue" />
+        <Frame
+            Grid.Row="1"
+            Grid.Column="2"
+            BackgroundColor="Blue" />
+        <Frame
+            Grid.Row="1"
+            Grid.Column="3"
+            BackgroundColor="Blue" />
+        <Frame
+            Grid.Row="1"
+            Grid.Column="4"
+            BackgroundColor="Blue" />
+        <Frame
+            Grid.Row="2"
+            Grid.Column="0"
+            BackgroundColor="Green" />
+        <Frame
+            Grid.Row="2"
+            Grid.Column="1"
+            BackgroundColor="Green" />
+        <Frame
+            Grid.Row="2"
+            Grid.Column="2"
+            BackgroundColor="Green" />
+        <Frame
+            Grid.Row="2"
+            Grid.Column="3"
+            BackgroundColor="Green" />
+        <Frame
+            Grid.Row="2"
+            Grid.Column="4"
+            BackgroundColor="Green" />
+        <Frame
+            Grid.Row="3"
+            Grid.Column="0"
+            BackgroundColor="LightPink" />
+        <Frame
+            Grid.Row="3"
+            Grid.Column="1"
+            BackgroundColor="LightPink" />
+        <Frame
+            Grid.Row="3"
+            Grid.Column="2"
+            BackgroundColor="LightPink" />
+        <Frame
+            Grid.Row="3"
+            Grid.Column="3"
+            BackgroundColor="LightPink" />
+        <Frame
+            Grid.Row="3"
+            Grid.Column="4"
+            BackgroundColor="LightPink" />
+        <Frame
+            Grid.Row="4"
+            Grid.Column="0"
+            BackgroundColor="LightBlue" />
+        <Frame
+            Grid.Row="4"
+            Grid.Column="1"
+            BackgroundColor="LightBlue" />
+        <Frame
+            Grid.Row="4"
+            Grid.Column="2"
+            BackgroundColor="LightBlue" />
+        <Frame
+            Grid.Row="4"
+            Grid.Column="3"
+            BackgroundColor="LightBlue" />
+        <Frame
+            Grid.Row="4"
+            Grid.Column="4"
+            BackgroundColor="LightBlue" />
+    </Grid>
+
+    <!--<Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="2*"/>
+            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="100"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="100"/>
+            <RowDefinition Height="3*"/>
+        </Grid.RowDefinitions>
+        <Frame Grid.Column="0" Grid.Row="0" BackgroundColor="Red"/>
+        <Frame Grid.Column="1" Grid.Row="0" BackgroundColor="Red"/>
+        <Frame Grid.Column="2" Grid.Row="0" BackgroundColor="Red"/>
+        <Frame Grid.Column="3" Grid.Row="0" BackgroundColor="Red"/>
+        <Frame Grid.Column="4" Grid.Row="0" BackgroundColor="Red"/>
+        <Frame Grid.Column="0" Grid.Row="1" BackgroundColor="Blue"/>
+        <Frame Grid.Column="1" Grid.Row="1" BackgroundColor="Blue"/>
+        <Frame Grid.Column="2" Grid.Row="1" BackgroundColor="Blue"/>
+        <Frame Grid.Column="3" Grid.Row="1" BackgroundColor="Blue"/>
+        <Frame Grid.Column="4" Grid.Row="1" BackgroundColor="Blue"/>
+        <Frame Grid.Column="0" Grid.Row="2" BackgroundColor="Green"/>
+        <Frame Grid.Column="1" Grid.Row="2" BackgroundColor="Green"/>
+        <Frame Grid.Column="2" Grid.Row="2" BackgroundColor="Green"/>
+        <Frame Grid.Column="3" Grid.Row="2" BackgroundColor="Green"/>
+        <Frame Grid.Column="4" Grid.Row="2" BackgroundColor="Green"/>
+        <Frame Grid.Column="0" Grid.Row="3" BackgroundColor="LightPink"/>
+        <Frame Grid.Column="1" Grid.Row="3" BackgroundColor="LightPink"/>
+        <Frame Grid.Column="2" Grid.Row="3" BackgroundColor="LightPink"/>
+        <Frame Grid.Column="3" Grid.Row="3" BackgroundColor="LightPink"/>
+        <Frame Grid.Column="4" Grid.Row="3" BackgroundColor="LightPink"/>
+        <Frame Grid.Column="0" Grid.Row="4" BackgroundColor="LightBlue"/>
+        <Frame Grid.Column="1" Grid.Row="4" BackgroundColor="LightBlue"/>
+        <Frame Grid.Column="2" Grid.Row="4" BackgroundColor="LightBlue"/>
+        <Frame Grid.Column="3" Grid.Row="4" BackgroundColor="LightBlue"/>
+        <Frame Grid.Column="4" Grid.Row="4" BackgroundColor="LightBlue"/>
+    </Grid>-->
+
+</ContentPage>
